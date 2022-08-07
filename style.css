@@ -2,6 +2,34 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark-color-1: hsl(185, 75%, 39%);
+  --dark-color-2: hsl(229, 23%, 23%);
+  --dark-color-3: hsl(227, 10%, 46%);
+  --light-color-1: hsl(0, 0%, 59%);
+  --para-size: 18px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans";
+  background-color: var(--dark-color-1);
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  /* background-position: top -400px left -150px, top 250px right -150px; */
+  background-position: top -50% right 200px, bottom -50% left 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.card-container {
+  margin: 3rem auto;
+}
+
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
